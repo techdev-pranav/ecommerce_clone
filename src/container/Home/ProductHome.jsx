@@ -79,7 +79,7 @@ const ProductDetails = () => {
             <img src={images.pic1} alt={product.name} />
             <h2>{product.name}</h2>
             <p>{product.description}</p>
-            <p>Price: ${product.price}</p>
+            <p>Price: {product.price}</p>
             <button onClick={() => handleAddToCart(product)}>
               Add to Cart
             </button>
